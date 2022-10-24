@@ -15,11 +15,8 @@ employee3.addDetailsToDocument();
 employee4.addDetailsToDocument();
 employee5.addDetailsToDocument();
 const employeeArray=[];
-employeeArray.push(employee1);
-employeeArray.push(employee2);
-employeeArray.push(employee3);
-employeeArray.push(employee4);
-employeeArray.push(employee5);
+employeeArray.push(employee1,employee2,employee3,employee4,employee5);
+
 
 const show=totalSalaryCalculator(employeeArray);
 const container=document.querySelector('.container');
