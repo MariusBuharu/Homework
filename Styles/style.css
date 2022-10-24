@@ -1,0 +1,9 @@
+.person-details{
+    border: none;
+    border-radius: 10px;
+    min-width: max-content;
+    min-height: fit-content;
+    max-width: 800px;
+    resize: both;
+    overflow: auto;
+}
