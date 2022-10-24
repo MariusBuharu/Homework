@@ -1,13 +1,13 @@
 "use strict";
 
-import employee from "./Models/employee.js";
+import Employee from "./Models/employee.js";
 import {totalSalaryCalculator} from "./Models/utils.js";
 
-const employee1=new employee('surname1','name1','location1',1000);
-const employee2=new employee('surname2','name2','location2',1200);
-const employee3=new employee('surname3','name3','location3',1400);
-const employee4=new employee('surname4','name4','location4',1100);
-const employee5=new employee('surname5','name5','location5',1700);
+const employee1=new Employee('surname1','name1','location1',1000);
+const employee2=new Employee('surname2','name2','location2',1200);
+const employee3=new Employee('surname3','name3','location3',1400);
+const employee4=new Employee('surname4','name4','location4',1100);
+const employee5=new Employee('surname5','name5','location5',1700);
 
 employee1.addDetailsToDocument();
 employee2.addDetailsToDocument();
